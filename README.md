@@ -8,6 +8,8 @@ node.js v11.12.0
 |-- frontend  
 |-- backend  
 |-- management  
+&emsp;|-- environmentSetting  
+&emsp;|-- meetingMinutes
 
 之后应该会在一级目录添上数据库，所以之后不要把数据库加进backend
 
