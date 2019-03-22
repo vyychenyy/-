@@ -17,7 +17,7 @@ node.js v11.12.0
 - 现在暂时分了Front-end，Back-end和Management
 - 因为现在全部用的默认看板，所以只有To do，In progress和Done，注意每次In progess的issue最多三件，如果完成有困难的话，在issue添加help wanted标签，然后找团队里其他成员一起解决
 - issue在done后应该把issue状态改成close
-- 大家一起检查过done状态的issue，确认无误后可以把issue从project delete掉，否则应该reopen
+- 大家一起检查过done状态的issue，确认无误后可以把issue从project archive掉，否则应该reopen
 
 ### Issue
 - 在issue栏目点击new issue可以创建新issue
