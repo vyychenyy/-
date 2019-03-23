@@ -50,7 +50,7 @@ Hubot的项目结构
 
 `set HUBOT_SLACK_TOKEN=xoxb-576609764288-580486290854-Pv8ovA0LcIZwTzlqNXXHVe6v`
 
-Slack的Hubot API Token是不变的，所以每次都输入这个命令即可。
+Slack的Hubot API Token在Slack的Hubot的Setting里面可以找到
 
 启动Hubot时，要声明使用的adaper是Slack
 
