@@ -46,7 +46,7 @@ Hubot的项目结构
 
 `npm install hubot-slack --save`
 
-然后每次连接前，都需要把Hubot的API Token设好
+然后每次连接前，都需要把Hubot的API Token设好，在windows下输入以下指令
 
 `set HUBOT_SLACK_TOKEN=xoxb-576609764288-580486290854-Pv8ovA0LcIZwTzlqNXXHVe6v`
 
@@ -55,6 +55,10 @@ Slack的Hubot API Token在Slack的Hubot的Setting里面可以找到
 启动Hubot时，要声明使用的adaper是Slack
 
 `bin\hubot.cmd -a slack`
+
+在linux下，输入以下指令，一次性设置好API Token并启动Hubot
+
+`env HUBOT_SLACK_TOKEN=xoxb-576609764288-580486290854-Pv8ovA0LcIZwTzlqNXXHVe6v ./bin/hubot --adapter slack`
 
 这样启动后，就已经连接上Hubot了，之后可以在Slack跟我们的Hubot聊天啦
 
