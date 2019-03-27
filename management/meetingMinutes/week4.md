@@ -1,0 +1,2 @@
+- 解决上周Slack与Hubot的交互遗留问题。
+- 介绍Hubot与SUT之间通过Ansible的联通架构，并布置为本周任务。
