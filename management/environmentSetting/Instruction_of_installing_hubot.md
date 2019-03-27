@@ -15,7 +15,11 @@ Hubot是基于node.js技术体系，使用CoffeeScript语言开发的开源chatb
 
 `bin\hubot.cmd`
 
-注意这是windows环境下，如果是linux，使用普通的斜杠即可。当你看到  
+注意这是windows环境下，如果是linux
+
+`bin/hubot`
+
+当你看到  
 
 ```
 yourHubotName> 
