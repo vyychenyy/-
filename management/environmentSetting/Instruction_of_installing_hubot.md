@@ -66,4 +66,12 @@ Slack的Hubot API Token在Slack的Hubot的Setting里面可以找到
 
 这样启动后，就已经连接上Hubot了，之后可以在Slack跟我们的Hubot聊天啦
 
+# 安装ansible
+# 利用ansible实现基本的操作
+# 连接hubot-slack
+# Telegraf+Influxdb+Grafana构建监控平台
+
+
+
+
 [1]: https://hubot.github.com/docs/scripting/
