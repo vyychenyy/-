@@ -69,14 +69,35 @@ Slack的Hubot API Token在Slack的Hubot的Setting里面可以找到
 # 安装ansible
 
 检查ansible的安装版本
-'ansible --version'
+`ansible --version`
 
 
 # 利用ansible实现基本的操作
-# 连接hubot-slack
+# 连接hubot和ansible
+
+
+
+在linux下，在hubot项目下输入运行：
+```
+npm install hubot-ansible-me --save
+```
+
+然后在`external-scripts.json`中加入以下信息：
+```
+[
+"hubot-ansible-me"
+]
+```
+TIP: *不要忘记在之前的末尾添加`,`*
+
+
+
+
+
 # Telegraf+Influxdb+Grafana构建监控平台
 
 
 
 
 [1]: https://hubot.github.com/docs/scripting/
+[2]: https://github.com/willdurand/hubot-ansible
