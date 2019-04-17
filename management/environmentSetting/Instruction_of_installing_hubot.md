@@ -90,7 +90,7 @@ npm install hubot-ansible-me --save
 ```
 TIP: *不要忘记在之前的末尾添加`,`*
 
-参考文档连接：https://github.com/willdurand/hubot-ansible[2]
+参考文档连接：[https://github.com/willdurand/hubot-ansible][2]
 
 
 
