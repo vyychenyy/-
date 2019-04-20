@@ -5,7 +5,7 @@ Hubot是基于node.js技术体系，使用CoffeeScript语言开发的开源chatb
 要安装Hubot，需要先上node.js官网下载js，我们使用的版本是v11.12.0。
 安装好node.js后，npm也会自动安装上，我们要使用npm来安装Hubot生成器。
 
-`npm install -g yo generator-hubot`
+`npm install -g yo generator-hubot` 
 
 之后可以再任意的文件夹生成自己的Hubot，只要输入`yo hubot`即可。
 生成时要注意，为了之后能够连接Slack，需要在adapter一栏打上slack，这样Hubot就安装完毕了。
