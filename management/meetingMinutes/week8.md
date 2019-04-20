@@ -8,7 +8,8 @@
     + 后端以Python flask进行算法实现
 
 + 返回图片的几种方式 ：
-  + 建立图片服务器，由slack直接访问  
+  + 建立图片服务器，由slack直接访问 
+    + 老师搭建了一个web server  Apache 
   + 返回一个grafa的url
   
   
