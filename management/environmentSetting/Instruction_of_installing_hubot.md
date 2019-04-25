@@ -101,3 +101,7 @@ TIP: *不要忘记在之前的末尾添加`,`*
 
 [1]: https://hubot.github.com/docs/scripting/
 [2]: https://github.com/willdurand/hubot-ansible
+
+# Nginx搭建图片服务器
+https://www.cnblogs.com/shuaifing/p/8268949.html
+https://blog.csdn.net/u012809062/article/details/70307130
