@@ -17,7 +17,15 @@ ubuntu 使用命令行进行安装
 
 我们使用的是V8.11.4
 
+在安装过程中出现了npm ERR! cb() never called!
 
+npm ERR! This is an error with npm itself. Please report this error at:
+npm ERR!     <https://github.com/npm/npm/issues>
+的问题
+
+清除缓存：
+
+`sudo npm cache clear --force `
 ### 安装Hubot
 
 Hubot是基于node.js技术体系，使用CoffeeScript语言开发的开源chatbot。
@@ -114,12 +122,22 @@ TIP: *不要忘记在之前的末尾添加`,`*
 
 
 # Telegraf+Influxdb+Grafana构建监控平台
+` wget https://dl.influxdata.com/influxdb/releases/influxdb_1.0.2_amd64.deb
+sudo dpkg -i influxdb_1.0.2_amd64.deb
+sudo systemctl start influxdb`
+
+`wget https://dl.influxdata.com/telegraf/releases/telegraf_0.11.1-1_amd64.deb
+sudo dpkg -i telegraf_0.11.1-1_amd64.deb
+sudo systemctl start telegraf`
+
+参考文档链接[https://www.cnblogs.com/renqiqiang/p/8659772.html][3]
 
 
 
 
 [1]: https://hubot.github.com/docs/scripting/
 [2]: https://github.com/willdurand/hubot-ansible
+[3]:https://www.cnblogs.com/renqiqiang/p/8659772.html
 
 # Nginx搭建图片服务器
 https://www.cnblogs.com/shuaifing/p/8268949.html
