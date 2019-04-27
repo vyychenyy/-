@@ -130,6 +130,11 @@ sudo systemctl start influxdb`
 sudo dpkg -i telegraf_0.11.1-1_amd64.deb
 sudo systemctl start telegraf`
 
+` wget https://grafanarel.s3.amazonaws.com/builds/grafana_3.1.1-1470047149_amd64.deb
+sudo apt-get install -y adduser libfontconfig
+sudo dpkg -i grafana_3.1.1-1470047149_amd64.deb
+systemctl start grafana-server `
+
 参考文档链接[https://www.cnblogs.com/renqiqiang/p/8659772.html][3]
 
 
@@ -142,3 +147,6 @@ sudo systemctl start telegraf`
 # Nginx搭建图片服务器
 https://www.cnblogs.com/shuaifing/p/8268949.html
 https://blog.csdn.net/u012809062/article/details/70307130
+
+### flask 环境
+http://www.pythondoc.com/flask/installation.html#installation
