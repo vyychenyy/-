@@ -1,8 +1,27 @@
 # 本地运行Hubot
 
+### 安装nodejs
+ubuntu 使用命令行进行安装
+
+`sudo apt-get install nodejs`
+
+`sudo apt-get install npm`
+
+若在安装过程中出现无法定位软件安装包的问题，则使用如下语句解决：
+
+`sudo apt-get update`
+
+使用 如下语句 查询 node 的版本
+
+`node --version`
+
+我们使用的是V8.11.4
+
+
 ### 安装Hubot
+
 Hubot是基于node.js技术体系，使用CoffeeScript语言开发的开源chatbot。
-要安装Hubot，需要先上node.js官网下载js，我们使用的版本是v11.12.0。
+要安装Hubot，
 安装好node.js后，npm也会自动安装上，我们要使用npm来安装Hubot生成器。
 
 `npm install -g yo generator-hubot` 
