@@ -12,4 +12,4 @@ os.system('git add .')
 #os.system('git remote add origin "https://github.com/vyychenyy/Cloud-Platform.git"')
 os.system('git commit -m "try"')
 
-os.system('git branch --set-upstream-to=origin/<branch> master')
+os.system('git push')
