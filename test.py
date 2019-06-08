@@ -1,6 +1,6 @@
 import os
 
-os.system('cd Cloud-Platform && ls')
+
 #os.system('ls')
 #os.system ('git config --global user.name "enaosun"')
 #os.system('git config --global user.email "enao_sun@163.com"')
