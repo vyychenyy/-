@@ -7,7 +7,7 @@ node.js v11.12.0
 # 目录结构
 |-- frontend  
 |-- backend  
-|-- management 
+|-- management  
 &emsp;|-- environmentSetting  
 &emsp;|-- meetingMinutes
 
