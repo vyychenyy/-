@@ -8,7 +8,6 @@ node.js v11.12.0
 |-- frontend  
 |-- backend  
 |-- management 
-|-- restful-api.md
 &emsp;|-- environmentSetting  
 &emsp;|-- meetingMinutes
 
